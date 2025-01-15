@@ -65,7 +65,6 @@ const CheckListCategory = ({title,items, onAddItem,onDeleteItem}) => {
                 type="checkbox"
                 checked={item.isChecked}
                 onChange={() =>{ 
-                  console.log("체크 확인",item.isChecked);
                   handleCheck(index)}}
               />
               <span className={item.isChecked ? styles.CheckedItem : styles.UncheckedItem}>
