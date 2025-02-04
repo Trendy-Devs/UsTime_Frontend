@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../assets/style/Picture/Picture.module.scss";
 
-const Album =({url}) =>{
+const Album =() =>{
 // const [picture, setPicture]= useState([]);
 
 // useEffect(() =>{
@@ -21,7 +21,7 @@ const Album =({url}) =>{
 
     return(
         <div className={styles.PictureAlbum}>
-            <img src={url} alt="사진" className={styles.image}></img>
+            {/* <img src={url} alt="사진" className={styles.image}></img> */}
         </div>
     );
 };
